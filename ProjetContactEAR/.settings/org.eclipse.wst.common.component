@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ProjetContactEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ProjetContactWeb.war" deploy-path="/" handle="module:/resource/ProjetContactWeb/ProjetContactWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ProjetContactEJB.jar" deploy-path="/" handle="module:/resource/ProjetContactEJB/ProjetContactEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ProjetContactEJBClient.jar" deploy-path="/" handle="module:/resource/ProjetContactEJBClient/ProjetContactEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

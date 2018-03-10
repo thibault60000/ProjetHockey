@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <display-name>Mes servlets</display-name>
+    <description>
+      Mes servlets pour le tetris
+    </description>
+	<servlet>
+		<servlet-name>ServletInsert</servlet-name> 
+		<servlet-class>projet_tetris.ServletInsertScore</servlet-class> 
+		<description>Servlet pour l'insertion d'un nouveau score</description> 
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>ServletInsert</servlet-name>
+		<url-pattern>/insert</url-pattern> 
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>MajTopScore</servlet-name> 
+		<servlet-class>projet_tetris.ServletMajScore</servlet-class> 
+		<description>Servlet pour la mise � jour de l'affichage des scores</description> 
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>MajTopScore</servlet-name>
+		<url-pattern>/majscore</url-pattern> 
+	</servlet-mapping>	
+</web-app>

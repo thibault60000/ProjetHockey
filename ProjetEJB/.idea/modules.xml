@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjetEJB.iml" filepath="$PROJECT_DIR$/ProjetEJB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ProjetEJBClient/ProjetEJBClient.iml" filepath="$PROJECT_DIR$/../ProjetEJBClient/ProjetEJBClient.iml" />
+    </modules>
+  </component>
+</project>
